@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udgram-iatr-dev
+  AWS_PROFILE: udgram-s3 
+  AWS_REGION: us-east-2
+  POSTGRESS_DB: postgres
+  POSTGRESS_HOST: udgram.cf396253njgn.us-east-2.rds.amazonaws.com
+  POSTGRESS_USERNAME: udgram
+  PG_DIALECT: postgress
+  AWS_REGION: us-east-2
+  URL: http://localhost:8100
+metadata:
+  name: env-config
